@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+}
+.backg{
+    background-image: url(../images/donation6.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.first-div{
+    text-align: center;
+}
+.first-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    margin: 174px 307px;
+    margin-bottom: 20px;
+}
+.first-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    gap: 8px;
+    align-items: center;
+    border: 0;
+}
+.donate{
+    text-align: center;
+    
+}
+.donate-title{
+    color: #121212;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.donate-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.amount h2{
+    padding: 1.5rem 1rem;
+    color: #707070;
+    background-color: #fafafa;
+    margin-bottom: 60px;
+}
+.amount #select{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.input{
+    border: none;
+    text-align: center;
+}
+
+hr{
+    border: 1px solid #DADADA;
+    margin: 0 350px;
+    margin-bottom: 30px;
+}
+.donate-plan{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.donate-container{
+    display: flex;
+    gap: 24px;
+    margin: 0 157px;
+
+}
+.container-part1{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+.container-part2{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+.container-part3{
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+}
+.container-title{
+    color: #121212;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 31.73px;
+    margin-bottom: 16px;
+}
+.container-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* .donate-container img{
+        padding: 63px 278px 278px 23px;
+} */
+.contribution{
+    display: flex;
+    margin: 0 220px;
+    margin-top: 80px;
+    gap: 30px;
+}
+.contribution .contribute-donate .contribute-image{
+    width: 456px;
+    height: 450px;
+}
+.contribution .donate-title{
+    margin-bottom: 20px;
+}
+.contribution .donate-description{
+    margin-bottom: 20px;
+}
+.update{
+    text-align: center;
+    margin-top: 130px;
+}
+.update .donate-description{
+    margin: 0 400px;
+    margin-bottom: 50px;
+}
+.boxing{
+    background: #FFF4D6;
+    width: 809px;
+    height: 200px;
+    margin: 0 400px;
+    text-align: center;
+    
+}
+.boxing .boxing-get{
+    text-align: center;
+    width: 432px;
+    height: 80px;
+    padding: 90px 50px;
+    margin: 76px 188px;
+}
+input[type=submit] {
+    background-color: #FF5959;
+    color: white;
+    border: none;
+}
+input[type=text], input[type=submit] {
+    padding: 2px;
+    border: none
+}
+footer {
+    margin-top: 5rem;
+    width: 100vw;
+    text-align: center;
+    background-color: #0b0d17;
+}
+
+.footer-content {
+    padding: 2rem 0;
+}
+
+footer h2 {
+    color: #ff5959;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer p {
+    color: #fff;
+}
+
